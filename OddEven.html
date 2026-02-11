@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="inp1" type="number">
+    <button onclick="check()">Check if no is Odd or Even</button>
+    <p id="res"></p>
+    <script>
+        function check(){
+            let n=document.getElementById("inp1").value;
+            if(n%2==0){
+                document.getElementById("res").innerHTML="even number";
+            }
+            else{
+                document.getElementById("res").innerHTML="odd number";
+            }
+        }
+    </script>
+</body>
+</html>
